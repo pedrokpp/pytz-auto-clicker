@@ -16,6 +16,11 @@ def main():
   if not os.name == "nt":
     print("this program only works with windows")
     exit()
+  else:
+    pass
+  print(f"Your OS is Windows '{os.name}'")
+  x = input("rate this program 1 to 10: ")
+  print(f"{x} is a reasonable score")
    
 if __name__ == "__main__":
   main()
